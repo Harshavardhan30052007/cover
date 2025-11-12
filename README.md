@@ -31,10 +31,43 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-
+```
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #f0f0f0;
+            }
+            img {
+                margin-top: 50px;
+                border: 5px solid #ccc;
+                box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+                
+            }
+.bottom-left {
+  position: absolute;
+  bottom: 390px;
+  left: 650px;
+  color:#ffffff
+}
+.bottom-right {
+  position: absolute;
+  bottom: 380px;
+  left: 950px;
+  
+}
+        </style>
+    </head>
+    <body align="center">
+        <img src="textbook.jpg" alt="Book Cover">
+        <div class="bottom-left">Harshavardhan</div>
+        <div class="bottom-right"><img src="harsha.jpg" style="width:50px; height:auto;"></div>
+    </body>
+</html>
+```
 
 ## OUTPUT:
-
+![alt text](image.png)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
